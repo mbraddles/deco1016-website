@@ -1,0 +1,25 @@
+.navbar {
+    background-color: rgb(142, 90, 51);
+    position: absolute;
+    left: -7px;
+    top: 0px;
+    width: 107%;
+    height: 120px;
+    z-index: 23;
+  }
+
+.navbar-left {
+    position: absolute;
+    left: 108px;
+    top: 60px;
+    width: 511px;
+    height: 78px;
+}
+
+.joinscreen-image {
+    position: fixed;
+    width: 50%;
+    height: 50%;
+    border-radius: 100%;
+}
+  
