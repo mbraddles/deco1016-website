@@ -1,25 +1,426 @@
+.body-index {
+    background-image: url("Picture Assets/iso-topon-uXaLI8JtMuY-unsplash.jpg");
+    background-color: #414141;
+    height: 1080px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Navigation Bar */
+
 .navbar {
-    background-color: rgb(142, 90, 51);
+    background-color: #636363;
     position: absolute;
-    left: -7px;
+    left: 0px;
     top: 0px;
-    width: 107%;
+    width: 100%;
     height: 120px;
-    z-index: 23;
   }
 
 .navbar-left {
-    position: absolute;
-    left: 108px;
-    top: 60px;
-    width: 511px;
-    height: 78px;
+    float: left;
+    padding: 35px;
 }
 
-.joinscreen-image {
-    position: fixed;
-    width: 50%;
-    height: 50%;
-    border-radius: 100%;
+.navbar-right{
+    margin-top: 33px;
+    margin-right: 10px;
+}
+
+.navbar-right ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0; 
+}
+
+.navbar-right li {
+    float: right;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+}
+
+.navbar-right a {
+    display: block;
+    padding: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar-right a:hover {
+    background-color: #464646;
+}
+
+/* Index Page */
+
+.clubhouse {
+    background-color: #fab752;
+    position: relative;
+    top: 575px;
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    border-radius: 150px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+}
+
+#chtext1 {
+    padding-top: 90px;
+    font-size: 2.5em;
+}
+
+#chtext2 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 200;
+    line-height: 0.95;
+    font-size: 1.25em;
+}
+
+.indexbodycontainer {
+    height: 625px;
+    position: absolute;
+    background-color: #ff6b6b;
+    top: 780px;
+    width: 100%;
+    left: 0px;
+}
+
+.indexbodycontainer h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    font-size: 7em;
+    top: 75px;
+    position: relative;
+    margin-left: 50px;
+}
+
+.indexbodycontainer h3 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 200;
+    font-size: 1.5em;
+    margin-left: 60px;
+    top: 30px;
+    position: relative;
+}
+
+#chtext3 {
+    background-color: #BEDC8C;
+    position: relative;
+    width: 60px;
+    padding: 20px;
+    margin-left: 62px;
+    top: 50px;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    border-radius: 5px;
+} 
+
+.indexbodycontainer h4 {
+    color: #414141;
+}
+
+.indexbodycontainer a {
+    text-decoration: none;
+}
+
+#chtext3:hover {
+    background-color: #BEDC8C;
+    border-color: #636363;
+    border-style: solid;
+    border-width: 2px;
+    top: 48px;
+    margin-left: 60px;
+}
+
+/* Sign-In & Join Styles */
+
+.body-signin {
+    background-color: #BEDC8C;
+}
+
+.body-join {
+    background-color: #BEDC8C;
+}
+
+/* Success Page */
+
+.body-success {
+    background-color: #BEDC8C;
+}
+
+.successbody img {
+    margin: auto;
+    display: block;
+    position: relative;
+    top: 225px;
+}
+
+.successbody h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    color: #414141;
+    text-align: center;
+    top: 250px;
+    position: relative;
+}
+
+.successbody h4 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    color: #414141;
+    text-align: center;
+    top: 250px;
+    position: relative;
+}
+
+/* Form Sign-In & Join */
+
+.form-head {
+    top: 150px;
+    position: relative;
+    width: 400px;
+    margin: auto;
+    text-align: center;
+}
+
+.form-head h2 {
+    display: inline-block;
+    text-align: center;
+    background-color: #fafafa;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    color: #414141;
+}
+
+.form-head h2:hover {
+    border-style: solid;
+    border-color: #414141;
+    border-width: 2px;
+}
+
+.form-head a {
+    text-decoration: none;
+    color: #414141;
+}
+
+#fh-j {
+    padding: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-right: 20px;
+}
+
+#fh-s {
+    padding: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 20px;
+}
+
+#fh-line {
+    top: 175px;
+    position: relative;
+    width: 400px;
+    height: 2px;
+    margin: auto;
+    background-color: #464646;
+    text-align: center;
+}
+
+.form {
+    display: block;
+    text-align: center;
+}
+
+form {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    width: 400px;
+    margin-top: 225px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+}
+
+form input {
+    width: 375px;
+    padding: 12px;
+    border: 2px solid #cecece;
+}
+
+form input:focus {
+    border: 2px solid #7a7a7a;
+}
+
+.signinbutton {
+    width: 75px;
+    height: 20px;
+    background-color: #fafafa;
+    padding: 10px;
+    margin: auto;
+}
+
+.signinbutton a {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    color: #414141;
+    text-decoration: none;
+}
+
+.createaccount {
+    position: relative;
+    margin: auto;
+    top: 20px;
+}
+
+.createaccount a {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    color: #414141;
+}
+
+select {
+    width: 400px;
+    padding: 12px;
+    border: none;
+}
+
+/* Member Page */
+
+.body-member {
+    background-image: url("Picture Assets/benjamin-sow-0FtWjW6-FPg-unsplash.jpg");
+    background-color: #414141;
+    height: 825px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pointscontainer {
+    margin: auto;
+    width: 700px;
+    height: 200px;
+    background-color: #BEDC8C;
+    border-radius: 30px;
+    text-align: center;
+    display: block;
+    top: 250px;
+    position: relative;
+}
+
+.points {
+    margin: auto;
+    text-align: center;
+    top: 30px;
+    position: relative;
+}
+
+.points ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.points li {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    font-size: 3em;
+    display: inline-block;
+    padding: 10px;
+    padding-left: 99px;
+    padding-right: 99px;
+}
+
+.pointstitles {
+    margin: auto;
+    text-align: center;
+    top: 30px;
+    position: relative;
+}
+
+.pointstitles ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.pointstitles li {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    display: inline-block;
+    padding: 10px;
+    padding-left: 65px;
+    padding-right: 65px;
+}
+
+/* Form Next and Submit Button */
+
+.nextbutton {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    margin-top: 25px;
+}
+
+.nextbutton a {
+    background-color: #fafafa;
+    padding: 10px;
+    padding-top: 12px;
+    color: #414141;
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    border-radius: 7px;
 }
   
+  /* Tablet's */
+  @media only screen and (min-width: 401px) and (max-width: 960px) {
+    .navbar{
+        height: 150px;
+    }
+
+    .navbar-right li {
+        float: left;
+    }
+
+    .indexbodycontainer h1 {
+        font-size: 3em;
+        margin-top: 100px;
+    }
+
+    .indexbodycontainer h3 {
+        top: 50px;
+    }
+
+  }
+
+  /* Mobile's */
+@media only screen and (max-width: 400px) {
+    .navbar{
+        height: 170px;
+    }
+
+    .navbar-right li {
+        float: left;
+    }
+
+    form {
+        width: 300px;
+    }
+
+    .form-head {
+        width: 300px;
+    }
+
+    .indexbodycontainer h1 {
+        font-size: 3em;
+        margin-top: 100px;
+    }
+
+    .indexbodycontainer h3 {
+        top: 50px;
+    }
+
+  }
